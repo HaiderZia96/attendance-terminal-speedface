@@ -1,0 +1,199 @@
+
+/*Clock & Time*/
+.header{
+    background-color: #ffffff;
+    border-bottom: 3px solid #e9ecef;
+}
+
+.header .date-time{
+    line-height: 0.9;
+}
+
+.header .date{
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 0.5em;
+    text-align: right;
+}
+.header  .clock{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    font-weight: 900;
+}
+.header .clock .unit{
+    color: black;
+    font-size: 1.25em;
+    font-weight: lighter;
+    height: 100%;
+    margin: 0 10px;
+    text-align: center;
+    /*text-shadow: 0 2px 2px #666;*/
+
+}
+/*.header .date-time{*/
+/*    border: 1px solid black;*/
+/*    border-radius: 15px;*/
+/*}*/
+
+
+
+
+
+/*Employee Details*/
+.emp-detail{
+    border-bottom: 7px solid #d15e5f;
+    border-radius: 12px;
+}
+.emp-detail .card-body .url_profile_active{
+    height: 230px;
+    width: 200px;
+}
+.emp-detail .card-body img{
+    height: 200px;
+    min-width:auto !important;
+    border: 2px solid black;
+}
+.emp-detail .card-body .vr{
+    border-right: 1px solid black;
+    height: 220px;
+}
+
+.emp-detail .card-body .in_out .in_out_img{
+    border: none;
+    min-width:auto !important;
+}
+.emp-detail .card-body .card-title {
+    font-size: 40px;
+    font-weight: 900;
+    overflow: hidden;
+    /*line-height: 1.0;*/
+
+}
+.emp-detail .card-body .card-value {
+    font-size: 40px;
+    font-weight: 900;
+    overflow: hidden;
+    /*line-height: 1.0;*/
+}
+.emp-detail .active-detail {
+    line-height:1.0;
+}
+
+
+
+
+.emp-history .table .image-col{
+    width: 15%;
+}
+.emp-history .table .emp-col{
+    width: 20%;
+
+}
+.emp-history .table .att-col{
+    width: 25%;
+
+}
+.emp-history .table .in-out-col{
+    width: 25%;
+
+}
+.emp-history .table .name-col{
+    width: 25%;
+
+}
+.emp-history .table tbody tr td{
+    font-size: 35px;
+    font-weight: 900;
+}
+
+
+
+/*Student Details*/
+.std-detail{
+    border-bottom: 7px solid #d15e5f;
+    border-radius: 12px;
+}
+.std-detail .card-body .url_profile_active{
+    height: 230px;
+    width: 200px;
+}
+.std-detail .card-body img{
+    height: 200px;
+    min-width:auto !important;
+    border: 2px solid black;
+}
+.std-detail .card-body .vr{
+    border-right: 1px solid black;
+    height: 220px;
+}
+
+.std-detail .card-body .in_out .in_out_img{
+    border: none;
+    min-width:auto !important;
+}
+.std-detail .card-body .card-title {
+    font-size: 40px;
+    font-weight: 900;
+    overflow: hidden;
+    /*line-height: 1.0;*/
+
+}
+.std-detail .card-body .card-value {
+    font-size: 40px;
+    font-weight: 900;
+    overflow: hidden;
+    /*line-height: 1.0;*/
+}
+.std-detail .active-detail {
+    line-height:1.0;
+}
+
+
+/*Default Details*/
+.default-detail{
+    border-bottom: 7px solid #d15e5f;
+    border-radius: 12px;
+}
+.default-detail .card-body .url_profile_active{
+    height: 230px;
+    width: 200px;
+}
+.default-detail .card-body img{
+    height: 200px;
+    min-width:auto !important;
+    border: 2px solid black;
+}
+.default-detail .card-body .vr{
+    border-right: 1px solid black;
+    height: 220px;
+}
+
+.default-detail .card-body .in_out .in_out_img{
+    border: none;
+    min-width:auto !important;
+}
+.default-detail .card-body .card-title {
+    font-size: 40px;
+    font-weight: 900;
+    overflow: hidden;
+    /*line-height: 1.0;*/
+
+}
+.default-detail .card-body .card-value {
+    font-size: 40px;
+    font-weight: 900;
+    overflow: hidden;
+    /*line-height: 1.0;*/
+}
+.default-detail .active-detail {
+    line-height:1.0;
+}
+
+.emp-detail ,
+.std-detail ,
+.default-detail {
+    height: 300px;
+}

@@ -1,0 +1,13 @@
+$timeout = new-timespan -Minutes 1
+$sw = [diagnostics.stopwatch]::StartNew()
+
+cd  C:\Apache24\htdocs\attendance_terminal_zkteco_speedface
+
+while ($sw.elapsed -lt $timeout){
+
+        php artisan app:attendance-service
+ 
+    start-sleep -seconds 60
+}
+ 
+write-host "Timed out"
